@@ -175,3 +175,34 @@ input {
 
 .field_with_errors {
 }
+
+
+/* users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
+}
+
+/*.pagination {
+  li {
+    float: left;
+    a:hover {
+        border-color: #eeeeee #eeeeee #ddd;
+    }
+  }
+  li.active > a,
+  li.active > a:hover,
+  li.active > a:focus {
+    color: #555555;
+    cursor: default;
+  }
+}*/
